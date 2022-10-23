@@ -1,4 +1,0 @@
-FROM openjdk:8
-EXPOSE 8090
-ADD /target/utilisateur-0.0.1-SNAPSHOT.jar utilisateur.jar
-ENTRYPOINT ["java" , "-jar" , "utilisateur.jar"]
